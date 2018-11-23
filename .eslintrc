@@ -21,7 +21,7 @@
     "settings": {
         "import/ignore": [
             "node_modules",
-            "\\.(json|css|jpg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm)$",
+            "\\.(json|css|jpg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm)$"
         ],
         "import/extensions": [".js"],
         "import/resolver": {
@@ -98,7 +98,7 @@
         "no-restricted-syntax": [
             "warn",
             "LabeledStatement",
-            "WithStatement",
+            "WithStatement"
         ],
         "no-script-url": "warn",
         "no-self-assign": "warn",
@@ -127,7 +127,7 @@
         "no-useless-rename": ["warn", {
             "ignoreDestructuring": false,
             "ignoreImport": false,
-            "ignoreExport": false,
+            "ignoreExport": false
         }],
         "no-with": "warn",
         "no-whitespace-before-property": "warn",
